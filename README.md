@@ -66,16 +66,30 @@ FIGURE -03
 
 
 
-PROGRAM 
- 
- 
- 
- 
- 
+## PROGRAM 
+```
+int buttonState = 0;
+void setup()
+{
+  pinMode(2,OUTPUT);
+  pinMode(13,INPUT);
+}
+void loop()
+{
+  buttonState = digitalRead(13);
+  if(buttonState == HIGH){
+   digitalWrite(2, HIGH);
+  }else {
+   digitalWrite(2, LOW);
+  }
+  delay(10);
+}
 
 
+```
+ ## Output of the simulation :
+![Output](.//outimg.png)
 
-Output of the simulation :
-
-[My image](username.github.com/repository/img/image.jpg)
+## Result
+the given experiment has been done in TINKERCAD using ARDUINO.
 
