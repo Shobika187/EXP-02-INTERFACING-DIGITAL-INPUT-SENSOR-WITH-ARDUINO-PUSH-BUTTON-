@@ -91,5 +91,5 @@ void loop()
 ![Output](.//outimg.png)
 
 ## Result
-the given experiment has been done in TINKERCAD using ARDUINO.
+The given experiment has been done in TINKERCAD using ARDUINO.
 
